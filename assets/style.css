@@ -84,11 +84,18 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
 }
-#about-me p {
+.about-me__paragraphe {
 	width: 80%;
 	font-size: 14px;
 }
+/* #about-me p {
+	width: 80%;
+	font-size: 14px;
+} */
 
 #gallery {
 	/*	min-height: 100vh; */
@@ -96,12 +103,14 @@ body {
 .title{
 	text-align: center;
 	padding-block: 2em;
+	font-size: 1.75rem;
+	margin-top: -5px;
 }
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -147,6 +156,8 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2.5rem;
+	line-height: 1.2;
 
 }
 .quote__author {
@@ -190,12 +201,21 @@ body {
 	z-index: 1;
 }
 
+/* .service__price p {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	height: 28.8px;
+	line-height: normal;
+} */
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+	margin-top: 12px;
 }
 
 #contact .container {
@@ -213,8 +233,12 @@ body {
 }
 .form-container {
 	flex : 2;
-
 }
+
+.form-container h2 {
+	font-size: 1.75rem;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -230,6 +254,10 @@ form input {
 	margin-bottom: 20px;
 }
 
+label {
+	width: 100%;
+}
+
 form textarea {
 	width: 100%;
 	background-color: transparent;
@@ -237,12 +265,13 @@ form textarea {
 	height: 5em;
 	line-height: 2.5em;
 	font-size: 1.2em;
-	margin-bottom: 20px;
+	margin-bottom: 13px;
 }
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+label
 
 @media all and (max-width: 1180px) {
 	.picture {
