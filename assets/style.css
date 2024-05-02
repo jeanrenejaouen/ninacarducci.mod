@@ -92,14 +92,7 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-/* #about-me p {
-	width: 80%;
-	font-size: 14px;
-} */
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -134,15 +127,6 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-.mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
 }
 
 .quote {
@@ -200,14 +184,6 @@ body {
 	justify-content: space-between;
 	z-index: 1;
 }
-
-/* .service__price p {
-	font-size: 1.5rem;
-	margin-bottom: 0.5rem;
-	font-weight: 500;
-	height: 28.8px;
-	line-height: normal;
-} */
 
 #contact {
 	margin: auto;
@@ -270,9 +246,6 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
-}
-.information li {
-	list-style: none;
 }
 
 @media all and (max-width: 1180px) {
@@ -384,4 +357,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
